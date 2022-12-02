@@ -510,6 +510,16 @@ h1.fifthone {
         transform: scale(0);
     }
 }
+.instagram{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.inst-title h1.inst-title{
+    font-size: 50px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
 
 #eighth-block{
     min-height: 100vh;
