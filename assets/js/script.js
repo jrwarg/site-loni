@@ -17,10 +17,10 @@ testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").c
 testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
 testimLeftArrow = document.getElementById("left-arrow"),
 testimRightArrow = document.getElementById("right-arrow"),
-testimSpeed = 4500,
+testimSpeed = 7000,
 currentSlide = 0,
 currentActive = 0,
-testimtTimer;
+testimTimer;
 
 window.onload = function(){
         document.querySelector(".menuMobile").addEventListener("click", function(){
