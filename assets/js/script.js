@@ -1,3 +1,15 @@
+const btn = document.querySelector(".btnTop");
+btn.addEventListener("click", function(){
+    window.scrollTo(0,0);
+})
+document.addEventListener('scroll', hideBtn)
+function hideBtn(){
+    if (window.scrollY > 30) {
+        btn.style.display = "flex";
+    } else {
+        btn.style.display = "none";
+    }
+}
 
 'use strict'
 var testim = document.getElementById("testim"),
@@ -60,7 +72,5 @@ window.onload = function(){
             playSlide(currentSlide = testimDots.indexOf(this));
         })
     }
-    playSlide(currentSlide);
-
-
-
+playSlide(currentSlide);
+hideBtn();

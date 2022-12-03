@@ -2,6 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     font-family: 'Belleza', sans-serif;
@@ -517,7 +518,7 @@ h1.fifthone {
 }
 .inst-title h1.inst-title{
     font-size: 50px;
-    margin-left: 200px;
+    margin-left: 210px;
     margin-bottom: 50px;
 }
 
@@ -607,6 +608,32 @@ h1.fifthone {
     height: 3px;
     background-color: black;
 
+}
+.btnTop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.arrow_7{
+    display: inline-block;
+    margin: auto;
+    border: solid black;
+    border-width: 0 7px 7px 0;
+    padding: 5px;
+}
+.up{
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
 }
 /* ======Responsive=========*/
 @media screen and (max-width:425px){
@@ -991,7 +1018,12 @@ h1.fifthone {
     .testim{
         margin-left: 0px;
     }
+
     /* ====================*/
+
+    .inst-title h1.inst-title{
+        margin-left: 86px;
+    }
     #eighth-block{
         width: 90%;
     }
