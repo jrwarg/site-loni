@@ -608,7 +608,6 @@ h1.fifthone {
     background-color: black;
 
 }
-
 /* ======Responsive=========*/
 @media screen and (max-width:425px){
     header{
@@ -780,6 +779,9 @@ h1.fifthone {
     .testim{
         margin-left: 0px;
     }
+    .inst-title h1.inst-title{
+        margin-left: 20px;
+    }
     #eighth-block{
         width: 100%;
         margin-left: 0;
@@ -805,7 +807,7 @@ h1.fifthone {
 }
 
 @media screen and (min-width: 426px) and (max-width: 1024px){
-    /* Zero até 768px */
+    
     header{
         flex-direction: row;
         height: auto;
