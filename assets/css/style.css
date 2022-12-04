@@ -280,12 +280,12 @@ h1.fifthone {
 
 #sixth-block{
     min-height: 100vh;
-    width: 80%;
+    width: 100%;
     margin-top: 80px;
 }
 
 .title-slider {
-    margin-left: 210px;
+    margin-left: 150px;
     font-size: 50px;
     font-weight: 100;
     text-align: left;
@@ -295,16 +295,18 @@ h1.fifthone {
     display: flex;
     justify-content: center;
     position: relative;
+    width: 100%;
     margin-top: 50px;
-    margin-left: 250px;
+    margin-left: 0;
     transform: translateY(-50%);
+    height: auto;
 }
 
 .testim .wrap {
     position: relative;
     top: 280px;
     width: 100%;
-    max-width: 1020px;
+    max-width: auto;
     padding: 40px 20px;
     margin: auto;
 }
@@ -376,7 +378,7 @@ h1.fifthone {
 
 .testim .cont {
     position: relative;
-    left: -2.5%;
+    left: -2%;
     overflow: hidden;
 }
 
@@ -403,7 +405,6 @@ h1.fifthone {
     width: auto;
     height: auto;
     margin: auto;
-    border-radius: 50%;
 }
 
 .testim .cont div h2 {
@@ -799,12 +800,26 @@ h1.fifthone {
     #sixth-block{
         margin-top: 80px;
         width: 100%;
+        margin-left: 30px !important;
     }
     .title-slider{
-        margin-left: 20px;
+        margin-left: 60px !important;
     }
     .testim{
         margin-left: 0px;
+        height: auto;
+    }
+    .testim .arrow{
+        font-size: 1em;
+        transform: translateY(-130%);
+    }
+    .testim .wrap{
+        padding: 0;
+        width: 100%;
+    }
+    .testim .dots .dot{
+        width: 5px;
+        height: 5px;
     }
     .inst-title h1.inst-title{
         margin-left: 20px;
@@ -833,7 +848,7 @@ h1.fifthone {
     }
 }
 
-@media screen and (min-width: 426px) and (max-width: 1024px){
+/* @media screen and (min-width: 426px) and (max-width: 1024px){
     
     header{
         flex-direction: row;
@@ -865,7 +880,7 @@ h1.fifthone {
         justify-content: space-around;
         margin-bottom: 15px;
     }
-    /* ====================*/
+
     #first-block h1{
         font-size: 110px;
     }
@@ -876,7 +891,7 @@ h1.fifthone {
         width: 140px;
         padding: 10px;
     }
-    /* ====================*/
+
     #second-block{
         flex-direction: column;
         margin-left: 85px;
@@ -900,7 +915,6 @@ h1.fifthone {
 
     }
 
-    /* ====================*/
     #third-block{
         width: 90%;
         flex-direction: column;
@@ -925,7 +939,7 @@ h1.fifthone {
         margin-right: 0;
         width: auto;
     }
-    /* ====================*/
+
     #fourth-block{
         width: 100%;
         flex-direction: column;
@@ -966,7 +980,7 @@ h1.fifthone {
         margin-bottom: 50px;
         margin-left: 0;
     }
-    /* ====================*/
+
     #fifth-block{
         width: 90%;
         flex-direction: column;
@@ -1005,7 +1019,7 @@ h1.fifthone {
         margin-right: 30px;
         margin-left: 18px;
     }
-    /* ====================*/
+
     #sixth-block{
         margin-top: 80px;
         width: 90%;
@@ -1018,8 +1032,6 @@ h1.fifthone {
     .testim{
         margin-left: 0px;
     }
-
-    /* ====================*/
 
     .inst-title h1.inst-title{
         margin-left: 86px;
@@ -1045,9 +1057,9 @@ h1.fifthone {
     .socialmedia{
         margin-left: 43px;
     }
-}
+} */
 
-@media screen and (min-width: 1025px) and (max-width:1299px){
+/* @media screen and (min-width: 1025px) and (max-width:1299px){
     #third-block{
         width: 100%;
     }
@@ -1120,7 +1132,7 @@ h1.fifthone {
         margin-top: 0;
 
     }
-}
+} */
     
 
     
