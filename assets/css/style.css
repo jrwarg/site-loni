@@ -849,7 +849,7 @@ h1.fifthone {
     }
 }
 
-/* @media screen and (min-width: 426px) and (max-width: 1024px){
+@media screen and (min-width: 426px) and (max-width: 1023px){
     
     header{
         flex-direction: row;
@@ -1058,9 +1058,9 @@ h1.fifthone {
     .socialmedia{
         margin-left: 43px;
     }
-} */
+}
 
-/* @media screen and (min-width: 1025px) and (max-width:1299px){
+@media screen and (min-width: 1024px){
     #third-block{
         width: 100%;
     }
@@ -1123,7 +1123,7 @@ h1.fifthone {
         margin-left: 70px;
     }
     .testim{
-        margin-left: 70px;
+        margin-left: 10px;
     }
     #eighth-block{
         width: 100%;
@@ -1133,7 +1133,7 @@ h1.fifthone {
         margin-top: 0;
 
     }
-} */
+}
     
 
     
